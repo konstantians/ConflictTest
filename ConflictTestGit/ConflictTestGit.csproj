@@ -66,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="IliasForm.resx">
+      <DependentUpon>IliasForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="KonstantinosForm.resx">
       <DependentUpon>KonstantinosForm.cs</DependentUpon>
     </EmbeddedResource>
